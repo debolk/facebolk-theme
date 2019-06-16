@@ -11,6 +11,11 @@
   color: #fff !important;
 }
 
+.media-list li.new {
+  border-left: 3px solid #1d3542 !important;
+  background-color: #1d3542 !important;
+}
+
 .nav .open > a{
   background-color: #1d3542 !important;
 }
