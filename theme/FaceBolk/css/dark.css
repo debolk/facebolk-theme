@@ -155,6 +155,9 @@ body a,body a:hover,body a:focus,body a:active,body a.active{
 #topbar-first .caret{
   border-top-color:#bebebe !important;
 }
+.media .media-body strong {
+  color: #fefefe !important;
+}
 #topbar-first .btn-group>a{
   background-color:#33ACB7 !important;
 }
