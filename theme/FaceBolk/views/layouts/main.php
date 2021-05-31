@@ -1,3 +1,4 @@
+
 <?php
 /* @var $this \yii\web\View */
 /* @var $content string */
@@ -44,7 +45,6 @@
 
                     <!-- load navigation from widget -->
                     <?= \humhub\widgets\TopMenu::widget(); ?>
-
                 </ul>
 
                 <ul class="nav pull-right" id="search-menu-nav">

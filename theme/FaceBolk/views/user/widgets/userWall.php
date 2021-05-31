@@ -12,10 +12,12 @@ use humhub\modules\directory\widgets\UserTagList;
             <div class="media-body">
                 <h4 class="media-heading"><?= Html::containerLink($user); ?></h4>
                 <h5>
-		<?php if($user->profile->title != ""){
-			echo Html::encode($user->profile->firstname)." ".Html::encode($user->profile->lastname); 
-		} ?>
-		</h5>
+                    <?php if($user->profile->title != ""){
+                        echo Html::encode($user->profile->firstname)." ".Html::encode($user->profile->lastname); 
+                    } else {
+                        echo Html::encode($user->profile->title);
+                    }?>
+                </h5>
                 <?= UserTagList::widget(['user' => $user]); ?>
             </div>
         </div>
