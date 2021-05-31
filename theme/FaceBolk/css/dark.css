@@ -23,7 +23,7 @@
 }
 .dropdown-menu{
   background-color: #15202b !important;
-  border-color: 1px solid #2d919c !important;
+  border: 1px solid #2d919c !important;
 }
 .select2-dropdown, .select2-results__option--highlighted{
   background-color: #15202b !important;
