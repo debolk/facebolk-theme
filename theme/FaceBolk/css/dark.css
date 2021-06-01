@@ -1,3 +1,6 @@
+#dropdown-notifications .media-list li.new {
+  background-color: #11616c !important;
+}
 .form-control {
   background-color: #10171e !important;
 }

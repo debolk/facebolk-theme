@@ -19,7 +19,7 @@
 <!-- end: Android Fullscreen -->
 
 <!-- dark theme switcher -->
-<link rel="stylesheet" type="text/css" media="screen" title="light-theme" href="<?php echo $this->theme->getBaseUrl() . '/css/light.css'; ?>">
+<link rel="stylesheet" type="text/css" media="screen" title="light-theme" href="<?php echo $this->theme->getBaseUrl() . '/css/theme.css'; ?>">
 <link rel="alternate stylesheet" type="text/css" media="screen" title="dark-theme" href="<?php echo $this->theme->getBaseUrl() . '/css/dark.css'; ?>">
 <?php if(isset($_COOKIE["darktheme"]) && $_COOKIE["darktheme"] == "true"): ?>
 	<script>
