@@ -13,10 +13,21 @@ return [
 				if($user->profile->title == ""){
 					return $user->profile->firstname.' '.$user->profile->lastname;
 				} else {
-	        return $user->profile->title;
+	     				return $user->profile->title;
 				}
-      }
-		]
+			},
+			'displayNameSubCallback' => function($user) {
+				if($user->profile->title == ""){
+					return null;
+				} else {
+	     				return $user->profile->firstname.' '.$user->profile->lastname;
+				}
+			},
+
+		],
+		'directory' => [
+			'guestAccess' => false,
+		],
 	]
 //	'components' => [
 //		'queue' => [

@@ -23,11 +23,11 @@ use humhub\widgets\FooterMenu;
                 //     ['showMoreButton' => true],
                 //     ['sortOrder' => 300]
                 // ],
-                [
-                    NewSpaces::class,
-                    ['showMoreButton' => true],
-                    ['sortOrder' => 400]
-                ],
+                // [
+                //     NewSpaces::class,
+                //     ['showMoreButton' => true],
+                //     ['sortOrder' => 400]
+                // ],
             ]
         ]);
         ?>
