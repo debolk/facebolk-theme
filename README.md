@@ -9,4 +9,4 @@ changes include:
  - add the facebolk theme to the themes folder
  - replace the config files in /protected/config with the ones provided here
 
-last tested on humhub version 1.3.12
+last tested on humhub version 1.8.2
